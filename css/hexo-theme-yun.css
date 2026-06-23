@@ -140,7 +140,7 @@ html.dark {
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
   --banner-char-hover-color: #000;
-  --post-card-bg-color: rgba(27,31,46,0.9);
+  --post-card-bg-color: rgba(27,31,46,0.85);
   --post-card-shadow: 0 1px 8px rgba(27,31,46,0.1);
   --sidebar-bg-color: rgba(27,31,46,0.95);
   --sidebar-bg-image: url("");
@@ -1257,7 +1257,7 @@ body::before {
   }
 }
 :root {
-  --post-card-bg-color: rgba(255,255,255,0.9);
+  --post-card-bg-color: rgba(255,255,255,0.85);
   --post-card-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .post-card {
@@ -1955,6 +1955,17 @@ body::before {
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5;
+}
+.site-author-status {
+  position: absolute;
+  height: 1.8rem;
+  width: 1.8rem;
+  bottom: 0;
+  right: 0;
+  line-height: 1.8rem;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  background-color: #fff;
 }
 .site-name {
   color: var(--hty-text-color);
